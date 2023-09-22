@@ -1,0 +1,32 @@
+body{
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 25vw;
+    height: 50vh;
+    /* align-items: center; */
+    text-align: center;
+}
+#username,#password,#submit{
+    margin :12px;
+    padding:12px;
+}
+#submit{
+    width:15vw;
+    background-color: #3498db;
+    color:white;
+    border: #3498db;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.error{
+    color:red;
+    text-align: left;
+    margin :0;
+    padding :0px 0px 0px 70px;
+}
